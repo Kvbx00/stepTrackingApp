@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Krokomierz</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- Root Preferences -->
+    <string name="prefs_goal_title">Cel</string>
+    <string name="prefs_goal_summary">Wpisz cel jaki chciałbyś osiągnąć</string>
+    <string name="prefs_goal_dialogTitle">Wpisz swój cel</string>
+
+    <string name="prefs_height_title">Wzrost</string>
+    <string name="prefs_height_summary">Wpisz swój wzrost</string>
+    <string name="prefs_height_dialogTitle">Wpisz swój wzrost [cm]</string>
+
+    <string name="prefs_weight_title">Waga</string>
+    <string name="prefs_weight_summary">Wpisz swoją wagę</string>
+    <string name="prefs_weight_dialogTitle">Wpisz swoją wagę [kg]</string>
+
+    <string name="prefs_pace_title">Tempo</string>
+    <string name="prefs_pace_summary">Wybierz swoje tempo</string>
+    <string name="prefs_pace_dialogTitle">Wybierz swoje tempo</string>
+
+    <!-- Activity main -->
+    <string name="activity_step">Kroki</string>
+
+    <!-- Main activity -->
+    <string name="main_goal">Cel: %s</string>
+    <string name="main_sensor">Nie wykryto czujnika</string>
+    <string name="main_reset">Przytrzymaj żeby zresetować kroki</string>
+
+    <!-- Settings activity -->
+    <string name="settings_title">Ustawienia</string>
+
+    <!-- Menu -->
+    <string name="menu_title">Ustawienia</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+
+    <string-array name="pace_entries">
+        <item>slow pace</item>
+        <item>average pace</item>
+        <item>high pace</item>
+    </string-array>
+
+    <string-array name="pace_entries_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

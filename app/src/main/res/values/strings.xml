@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Pedometer</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- Root Preferences -->
+    <string name="prefs_goal_title">Goal</string>
+    <string name="prefs_goal_summary">Enter the goal you want to achieve</string>
+    <string name="prefs_goal_dialogTitle">Enter your goal</string>
+
+    <string name="prefs_height_title">Height</string>
+    <string name="prefs_height_summary">Enter your height</string>
+    <string name="prefs_height_dialogTitle">Enter your height [cm]</string>
+
+    <string name="prefs_weight_title">Weight</string>
+    <string name="prefs_weight_summary">Enter your weight</string>
+    <string name="prefs_weight_dialogTitle">Enter your weight [kg]</string>
+
+    <string name="prefs_pace_title">Pace</string>
+    <string name="prefs_pace_summary">Choose your pace</string>
+    <string name="prefs_pace_dialogTitle">Choose your pace</string>
+
+    <!-- Activity main -->
+    <string name="activity_step">Steps</string>
+
+    <!-- Main activity -->
+    <string name="main_goal">Goal: %s</string>
+    <string name="main_sensor">Sensor not detected</string>
+    <string name="main_reset">Hold to reset steps</string>
+
+    <!-- Settings activity -->
+    <string name="settings_title">Settings</string>
+
+    <!-- Menu -->
+    <string name="menu_title">Settings</string>
+
+</resources>

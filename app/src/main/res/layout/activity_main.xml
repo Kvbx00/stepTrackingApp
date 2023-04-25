@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient">
+
+    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+        android:id="@+id/circularProgressBar"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        app:cpb_background_progressbar_color="#c5eaed"
+        app:cpb_background_progressbar_width="15dp"
+        app:cpb_progress_direction="to_right"
+        app:cpb_progressbar_color="#1be4f2"
+        app:cpb_progressbar_width="10dp"
+        app:cpb_round_border="true" />
+
+    <TextView
+        android:id="@+id/stepsTakenTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="0"
+        android:textColor="#ffffff"
+        android:textSize="80dp" />
+
+    <TextView
+        android:id="@+id/progressMaxTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/stepsTakenTextView"
+        android:layout_centerInParent="true"
+        android:text="100"
+        android:textColor="#d3d3d3" />
+
+    <TextView
+        android:id="@+id/stepsTextTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stepsTakenTextView"
+        android:layout_centerInParent="true"
+        android:text="@string/activity_step"
+        android:textColor="#d3d3d3" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="70dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewFire"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/fire" />
+
+        <TextView
+            android:id="@+id/kcalTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="0"
+            android:textColor="#ffffff"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/kcalTextTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Kcal"
+            android:textColor="#d3d3d3"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="70dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewDistance"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/distance" />
+
+        <TextView
+            android:id="@+id/distanceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="0.00"
+            android:textColor="#ffffff"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/distanceTextTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Km"
+            android:textColor="#d3d3d3"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

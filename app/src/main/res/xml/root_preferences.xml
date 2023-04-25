@@ -1,0 +1,36 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory>
+
+        <EditTextPreference
+            app:key="progress_input"
+            app:title="@string/prefs_goal_title"
+            app:summary="@string/prefs_goal_summary"
+            app:dialogTitle="@string/prefs_goal_dialogTitle" />
+
+        <EditTextPreference
+            app:key="height"
+            app:title="@string/prefs_height_title"
+            app:summary="@string/prefs_height_summary"
+            app:defaultValue="170"
+            app:dialogTitle="@string/prefs_height_dialogTitle" />
+
+        <EditTextPreference
+            app:key="weight"
+            app:title="@string/prefs_weight_title"
+            app:summary="@string/prefs_weight_summary"
+            app:defaultValue="65"
+            app:dialogTitle="@string/prefs_weight_dialogTitle" />
+
+        <ListPreference
+            app:key="pace"
+            app:title="@string/prefs_pace_title"
+            app:summary="@string/prefs_pace_summary"
+            app:dialogTitle="@string/prefs_pace_dialogTitle"
+            app:defaultValue="1"
+            app:entries="@array/pace_entries"
+            app:entryValues="@array/pace_entries_values"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
